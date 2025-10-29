@@ -1,0 +1,17 @@
+{
+  "name": "jenkinspipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "echo Build successful!",
+  "test": "echo Tests passed successfully!"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
