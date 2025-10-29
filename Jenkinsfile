@@ -6,7 +6,9 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository...'
-                git branch: 'main', url: 'https://github.com/110-Shivanand/jenkins-pipeline-demo.git'
+                git branch: 'main',
+                    credentialsId: 'github-creds',  // 🔹 Use Jenkins credentials ID here
+                    url: 'https://github.com/110-Shivanand/jenkins-pipeline-demo.git'
             }
         }
 
