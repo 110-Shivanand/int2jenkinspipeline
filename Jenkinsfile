@@ -7,8 +7,9 @@ pipeline {
             steps {
                 echo 'Cloning repository...'
                 git branch: 'main',
-                    credentialsId: 'github-creds',  // 🔹 Use Jenkins credentials ID here
-                    url: 'https://github.com/110-Shivanand/jenkins-pipeline-demo.git'
+    credentialsId: 'github-creds',
+    url: 'https://github.com/110-Shivanand/int2jenkinspipeline.git'
+
             }
         }
 
